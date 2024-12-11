@@ -11,7 +11,7 @@ export class FriendAge {
         let today = new Date();
         let birthday = new Date(this.year, this.month, this.day);
         let age = today.getFullYear() - birthday.getFullYear();
-        return `${this.name} is  ${age} today!`;
+        return `${this.name} is ${age} today!`;
     }
 }
 
